@@ -10,9 +10,6 @@ Para usar esta librería solo debe de incluir la ruta del archivo DB.php e inici
 include 'DB.php';
 use PHPDB\DB;
 
-/**
- * Inicializar la clase BD
- */
 $init = new DB();
 
 Una vez hecho esto invocar el método que desea utilizar
