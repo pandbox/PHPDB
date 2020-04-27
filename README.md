@@ -7,7 +7,9 @@ PHPDB es totalmente orientada a objetos y trabaja con la extensión PDO, además
 
 ¿Cómo uso PHPDB?
 Para usar esta librería solo debe de incluir la ruta del archivo DB.php e inicializar la clase:
+
 include 'DB.php';
+
 use PHPDB\DB;
 
 $init = new DB();
