@@ -1,0 +1,18 @@
+{
+    "name": "phpdb",
+    "type": "library",
+    "description": "Libreria PHP para el manejo de bases de datos",
+    "license": "MIT",
+    "authors": {
+        "name": "Alejandro Moreno",
+        "email": "alejandromj92@nauta.cu"
+    },
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Phpdb\\" : "src/"
+        }
+    }
+}
