@@ -1,5 +1,5 @@
 {
-    "name": "phpdb",
+    "name": "php_my_db",
     "type": "library",
     "description": "Libreria PHP para el manejo de bases de datos",
     "license": "MIT",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Phpdb\\" : "src/"
+            "Phpmydb\\" : "src/"
         }
     }
 }
