@@ -1,5 +1,5 @@
 {
-    "name": "phpdestroyerbase",
+    "name": "phpdb/phpdb",
     "type": "library",
     "description": "Libreria PHP para el manejo de bases de datos",
     "license": "MIT",
