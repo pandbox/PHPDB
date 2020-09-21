@@ -1,6 +1,5 @@
 # PHPDB
 ***
-
 ## Libreria para el manejo de base de datos
 
 ### ¿Qué es PHPDB? 
@@ -35,7 +34,7 @@ $insert = array('id' => null, 'campo' => 'Lorem ipsum.');
 $init->new($tabla , $insert);
 ```
 
-Método `show()`
+* Método `show()`
 Este método se encarga de mostrar los registros se la base de datos, es obligatorio pasar los parámetros el orden correcto para que no devuelva un error.
 Variable $table es donde se guarda el nombre de la tabla a utilizar.
 Variable $ver es un arreglo donde se pasan los nombres de los campos como las claves del arreglo y los valores del arreglo serán los datos que validan la consulta.
